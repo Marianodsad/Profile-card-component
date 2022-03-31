@@ -1,0 +1,240 @@
+#html{
+    display:block;
+}
+#body{
+    display:flex;
+    background:url(img/bg-pattern-top.svg) no-repeat top left -300px;
+    background-color:hsl(185, 75%, 39%);
+    justify-content:center;
+    margin-top:200px;
+    
+}
+#main{
+    display:flex;
+    width:390px;
+    height:100%;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    background-color:white;
+    border-radius:15px;
+}
+#div-1{
+    display:block;
+}
+#img-1{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width:390px;
+    height:100%;
+    
+}
+#img-2{
+    display:flex;
+    position:fixed;
+    margin-left:135px;
+    margin-right: 140px;
+    margin-top:80px;
+    border-radius:1000px;
+    width:110px;
+    height:110px;
+    background-color:white;
+    padding:5px;
+}
+#dv{
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    margin-top:60px;
+}
+#h1-1{
+    display:block;
+    font-size:18px;
+    font-family:"Kumbh Sans";
+    
+}
+#pp{
+    display:block;
+    font-size:18px;
+    font-family:"Kumbh Sans";
+    margin:10px 10px;
+    color:hsl(0, 0%, 59%);
+}
+#p1{
+    display:block;
+    font-family:"Kumbh Sans";
+    font-size:18px;
+    color:hsl(0, 0%, 59%);
+    margin:0px;
+    margin-bottom:20px;
+}
+#hr{
+    display:block;
+    width:98%;
+    height:100%;
+    padding:0,1px;
+    background-color:hsl(0, 0%, 59%);
+    opacity:30%;
+}
+#div-2{
+    display:flex;
+    flex-direction:row;
+}
+#dv-1{
+    display:flex;
+    flex-direction:column;
+    margin:20px 30px;
+    font-family:"Kumbh Sans";
+    font-size:14px;
+    justify-content:center;
+    
+}
+.p-2{
+    color:hsl(0, 0%, 59%);
+}
+.h1-2{
+    margin:0px;
+}
+#a-a{
+    display:block;
+    margin:20px;
+    font-size:18px;
+    font-family:"Kumbh Sans";
+    text-decoration: none;
+    color:black;
+    background-color:white;
+    border-radius:25px;
+    padding:10px;
+}
+#a-a:hover{
+    animation-name:a;
+    animation-duration:1s;
+}
+@keyframes a{
+    0%{background-color:white;
+        color:black;}
+    100%{background-color:black;
+        color:white;}
+
+}
+@media(max-wdith:500px){
+    #html{
+        display:block;
+    }
+    #body{
+        display:flex;
+        background:url(img/bg-pattern-top.svg) no-repeat top left -300px;
+        background-color:hsl(185, 75%, 39%);
+        justify-content:center;
+        margin-top:100px;
+        
+    }
+    #main{
+        display:flex;
+        width:390px;
+        height:100%;
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+        background-color:white;
+        border-radius:15px;
+    }
+    #div-1{
+        display:block;
+    }
+    #img-1{
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        width:390px;
+        height:100%;
+        
+    }
+    #img-2{
+        display:flex;
+        position:fixed;
+        margin-left:135px;
+        margin-right: 140px;
+        margin-top:80px;
+        border-radius:1000px;
+        width:110px;
+        height:110px;
+        background-color:white;
+        padding:5px;
+    }
+    #dv{
+        display:flex;
+        justify-content:center;
+        flex-direction:row;
+        margin-top:60px;
+    }
+    #h1-1{
+        display:block;
+        font-size:18px;
+        font-family:"Kumbh Sans";
+        
+    }
+    #pp{
+        display:block;
+        font-size:18px;
+        font-family:"Kumbh Sans";
+        margin:10px 10px;
+        color:hsl(0, 0%, 59%);
+    }
+    #p1{
+        display:block;
+        font-family:"Kumbh Sans";
+        font-size:18px;
+        color:hsl(0, 0%, 59%);
+        margin:0px;
+        margin-bottom:20px;
+    }
+    #hr{
+        display:block;
+        width:98%;
+        height:100%;
+        padding:0,1px;
+        background-color:hsl(0, 0%, 59%);
+        opacity:30%;
+    }
+    #div-2{
+        display:flex;
+        flex-direction:row;
+    }
+    #dv-1{
+        display:flex;
+        flex-direction:column;
+        margin:20px 30px;
+        font-family:"Kumbh Sans";
+        font-size:14px;
+        justify-content:center;
+        
+    }
+    .p-2{
+        color:hsl(0, 0%, 59%);
+    }
+    .h1-2{
+        margin:0px;
+    }
+    #a-a{
+        display:block;
+        margin:20px;
+        font-size:18px;
+        font-family:"Kumbh Sans";
+        text-decoration: none;
+        color:black;
+        background-color:white;
+        border-radius:25px;
+        padding:10px;
+    }
+    #a-a:hover{
+        animation-name:a;
+        animation-duration:500ms;
+    }
+    @keyframes a{
+        0%{background-color:white;
+            color:black;}
+        100%{background-color:black;
+            color:white;}
+    }
+    
+}
